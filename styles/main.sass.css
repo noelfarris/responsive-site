@@ -1,0 +1,125 @@
+@import url(normalize.css);
+header {
+  background-color: #fff;
+  height: 2.1875em;
+  margin-bottom: 0.75em; }
+  header .nav {
+    color: #4E555C;
+    font-size: 1em;
+    margin-right: 1.125em;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 2.1875em;
+    padding-left: 1em;
+    padding-top: 0.625em; }
+    header .nav.black {
+      color: black; }
+
+.hero {
+  height: 12.5em;
+  background-image: url("images/background.jpg");
+  margin-bottom: 3.125em; }
+  .hero p {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 2.0625em;
+    text-align: center;
+    margin: 0;
+    padding-top: 1.875em;
+    padding-bottom: 0; }
+    .hero p.bottom {
+      padding-top: 0;
+      padding-bottom: 4.25em; }
+
+.main {
+  margin-bottom: 6.9375em; }
+  .main .pricing {
+    height: 35.875em;
+    padding-right: .75em;
+    margin-left: 0.625em;
+    margin-bottom: 2.125em; }
+    .main .pricing .pricebox {
+      background-color: #519251;
+      height: 13.75em;
+      padding-top: 2.125em;
+      box-sizing: border-box; }
+      .main .pricing .pricebox.blue {
+        background-color: #2C4985; }
+      .main .pricing .pricebox.black {
+        background-color: #111111; }
+      .main .pricing .pricebox p {
+        text-align: center;
+        color: white;
+        font-size: 1.0625em;
+        margin: 0; }
+      .main .pricing .pricebox .one {
+        letter-spacing: .2em; }
+      .main .pricing .pricebox .two {
+        font-size: 5.9em;
+        font-weight: lighter; }
+      .main .pricing .pricebox .three {
+        color: #A7C7A7;
+        font-size: 1.2em; }
+        .main .pricing .pricebox .three.blu {
+          color: #95A3C2; }
+        .main .pricing .pricebox .three.bla {
+          color: #878787; }
+
+.features {
+  background-color: #F7F7F7;
+  height: 2.8125em;
+  border: 1px solid #E7E7E7;
+  border-top: 0;
+  text-align: center;
+  color: #505D63;
+  line-height: 2.8125em; }
+
+.choose {
+  height: 5.3125em;
+  border: 1px solid #E7E7E7;
+  border-top: 0;
+  padding-top: 1.5625em;
+  box-sizing: border-box; }
+
+.button {
+  height: 2.1875em;
+  width: 5.625em;
+  border: 1px solid #CCCCCC;
+  border-radius: 2em;
+  text-align: center;
+  line-height: 2.1875em;
+  margin: 0 auto;
+  font-weight: bold; }
+
+.head {
+  margin-left: 1.6875em;
+  font-size: 1.2em;
+  letter-spacing: .2em;
+  margin-bottom: 1.4375em;
+  display: block;
+  padding-right: .75em; }
+
+.paragraph {
+  font-size: 1em;
+  color: #526066;
+  display: block;
+  margin-left: 1.9375em;
+  line-height: 1.7;
+  margin-bottom: 3.75em;
+  padding-right: .75em; }
+
+.last {
+  margin-bottom: 1.9375em; }
+
+footer {
+  background-color: #111111;
+  height: 5.625em;
+  padding-top: .5em;
+  box-sizing: border-box; }
+  footer p {
+    text-align: center;
+    font-size: 1em;
+    color: #526066;
+    line-height: 1.5; }
+  footer a {
+    color: white; }
