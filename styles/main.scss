@@ -28,7 +28,7 @@ header {
 	margin-bottom: (50/16)*1em;
 
 	p {
-		color: white; text-shadow: black 0.1em 0.1em 0.2em;
+		color: white; text-shadow: #2E2D18 0.05em 0.05em 0.05em;
 		font-size: (33/16)*1em;
 		text-align: center;
 		margin: 0;
@@ -109,6 +109,10 @@ header {
 	border-top: 0;
 	padding-top: (25/16)*1em;
 	box-sizing: border-box;
+	a {
+		text-decoration: none;
+		color: black;
+	}
 }
 
 .button {
@@ -120,6 +124,8 @@ header {
 	line-height: (35/16)*1em;
 	margin: 0 auto;
 	font-weight: bold;
+
+
 }
 
 .head {
@@ -158,9 +164,18 @@ footer {
 		font-size: 1em;
 		color: #526066;
 		line-height: 1.5;
+		padding: 0 1em;
 	}
 	a {
 		color: white;
 	}
 }
-
+@media screen and (min-width: (478/16)*1em) {
+		.hero {
+			height: (400/16)*1em;
+			p {
+				font-size: (50/16)*1em;
+				padding-top: (48/16)*1em;
+			}
+		}
+  }

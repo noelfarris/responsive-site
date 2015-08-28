@@ -21,7 +21,7 @@ header {
   margin-bottom: 3.125em; }
   .hero p {
     color: white;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    text-shadow: #2E2D18 0.05em 0.05em 0.05em;
     font-size: 2.0625em;
     text-align: center;
     margin: 0;
@@ -80,6 +80,9 @@ header {
   border-top: 0;
   padding-top: 1.5625em;
   box-sizing: border-box; }
+  .choose a {
+    text-decoration: none;
+    color: black; }
 
 .button {
   height: 2.1875em;
@@ -120,6 +123,14 @@ footer {
     text-align: center;
     font-size: 1em;
     color: #526066;
-    line-height: 1.5; }
+    line-height: 1.5;
+    padding: 0 1em; }
   footer a {
     color: white; }
+
+@media screen and (min-width: 29.875em) {
+  .hero {
+    height: 25em; }
+    .hero p {
+      font-size: 3.125em;
+      padding-top: 3em; } }
