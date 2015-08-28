@@ -157,13 +157,9 @@ footer {
     width: 47%;
     vertical-align: top; }
   .head {
-    float: left;
-    display: inline-block;
-    vertical-align: top; }
+    float: left; }
   .paragraph {
-    float: left;
-    display: inline-block;
-    vertical-align: top; }
+    float: left; }
   footer {
     clear: left; } }
 
