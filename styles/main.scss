@@ -221,3 +221,18 @@ footer {
 		clear: left;
 	}
 }
+@media screen and (min-width: (979/16)*1em) {
+	.main {
+		padding: 0 (5/16)*1em;
+	}
+	.container {
+		width: 90%
+	}
+	.text {
+		padding-left: (70/16)*1em;
+	}
+	.article {
+		width: 45%;
+	}
+	
+}

@@ -166,3 +166,13 @@ footer {
     vertical-align: top; }
   footer {
     clear: left; } }
+
+@media screen and (min-width: 61.1875em) {
+  .main {
+    padding: 0 0.3125em; }
+  .container {
+    width: 90%; }
+  .text {
+    padding-left: 4.375em; }
+  .article {
+    width: 45%; } }
